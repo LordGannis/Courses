@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.sun.xml.internal.ws.util.StringUtils"/>
+<fullyQualifiedTypeName name="examples.modelo.TipoPrego"/>
+<fullyQualifiedTypeName name="examples.modelo.Conectores"/>
+<fullyQualifiedTypeName name="br.com.tcd.modelo.Kmod1"/>
+<fullyQualifiedTypeName name="br.com.tcd.telas.TelaPrego"/>
+<fullyQualifiedTypeName name="java.awt.Insets"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Method"/>
+<fullyQualifiedTypeName name="br.com.tcd.telas.ClsDataHora"/>
+<fullyQualifiedTypeName name="java.text.ParseException"/>
+<fullyQualifiedTypeName name="java.awt.Color"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.io.FilePermission"/>
+<fullyQualifiedTypeName name="br.com.tcd.enumeration.Kmod1"/>
+<fullyQualifiedTypeName name="br.com.tcd.enumeration.ClasseAcoParafuso"/>
+<fullyQualifiedTypeName name="br.com.tcd.modelo.CalculoModeloLigacao"/>
+<fullyQualifiedTypeName name="javax.swing.JProgressBar"/>
+<fullyQualifiedTypeName name="br.com.tcd.util.ClsDataHora"/>
+<fullyQualifiedTypeName name="br.com.tcd.modelo.ChapaAco"/>
+<fullyQualifiedTypeName name="br.com.tcd.enumeration.ClasseAco"/>
+<fullyQualifiedTypeName name="br.com.tcd.enumeration.ClasseMadeira"/>
+<fullyQualifiedTypeName name="br.com.tcd.enumeration.EspessuraChapaAco"/>
+<fullyQualifiedTypeName name="br.com.tcd.enumeration.TipoParafuso"/>
+<fullyQualifiedTypeName name="br.com.tcd.enumeration.TipoArruela"/>
+<fullyQualifiedTypeName name="br.com.tcd.enumeration.TipoArruelaAco"/>
+<fullyQualifiedTypeName name="java.util.function.DoubleToLongFunction"/>
+<fullyQualifiedTypeName name="br.com.tcd.util.Util"/>
+</qualifiedTypeNameHistroy>

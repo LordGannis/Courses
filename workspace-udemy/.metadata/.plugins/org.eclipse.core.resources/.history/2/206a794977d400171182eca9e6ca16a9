@@ -1,0 +1,65 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package br.com.tcd.enumeration;
+
+/**
+ *
+ * @author Gabriela Mello
+ */
+public enum TipoArruela {
+
+	ESCOLHA_TIPO_ARRUELA("Escolha o Tipo de Arruela", null),
+	M10("M10 (DIN 440 R)", TipoParafuso.M10),
+	M10("M10 (DIN 440 V)", TipoParafuso.M10),
+	M10("M10 (DIN 436)", TipoParafuso.M10),
+	M12("M12 (DIN 440 R)", TipoParafuso.M12),
+	M12("M12 (DIN 440 V)", TipoParafuso.M12),
+	M12("M12 (DIN 436)", TipoParafuso.M12),
+	M16("M16 (DIN 440 R)", TipoParafuso.M16),
+	M16("M16 (DIN 440 V)", TipoParafuso.M16),
+	M16("M16 (DIN 436)", TipoParafuso.M16),
+	M20("M20 (DIN 440 R)", TipoParafuso.M20),
+	M20("M20 (DIN 440 V)", TipoParafuso.M20),
+	M20("M20 (DIN 436)", TipoParafuso.M20),
+	M22("M22 (DIN 440 R)", TipoParafuso.M22),
+	M22("M22 (DIN 440 V)", TipoParafuso.M22),
+	M22("M22 (DIN 436)", TipoParafuso.M22),
+	M24("M24 (DIN 440 R)", TipoParafuso.M24),
+	M24("M24 (DIN 436)", TipoParafuso.M24),
+	M27("M27 (DIN 440 R)", TipoParafuso.M27),
+	M27("M27 (DIN 436)", TipoParafuso.M27),
+	M30("M30 (DIN 440 R)", TipoParafuso.M30),
+	M30("M30 (DIN 436)", TipoParafuso.M30),
+	M33("M33 (DIN 440 R)", TipoParafuso.M33),
+	M36("M36 (DIN 440 R)", TipoParafuso.M36);
+	
+	private String nome;
+	private TipoParafuso tipoParafuso;
+
+	private TipoArruela(String nome, TipoParafuso tipoParafuso) {
+		this.nome = nome;
+		this.tipoParafuso = tipoParafuso;
+
+	}
+
+	public double getDiametro() {
+		return this.DiametroParafuso;
+	}
+
+	public double getComprimento() {
+		return this.ComprimentoParafuso;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	@Override
+	public String toString() {
+		return this.nome;
+	}
+
+}

@@ -1,0 +1,177 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package br.com.tcd.enumeration;
+
+/**
+ *
+ * @author Gabriela Mello
+ */
+public enum TipoArruela {
+
+	ESCOLHA_TIPO_PARAFUSO("Escolha o Tipo de Arruela", 0d, 0d),
+	M10("M10", 10.0, 58.0),
+	M12("M12", 12.0, 84.3),
+	M16("M16", 16.0, 157.0),
+	M20("M20", 20.0, 245.0),
+	M22("M22", 22.0, 303.0),
+	M24("M24", 24.0, 353.0),
+	M27("M27", 27.0, 459.0),
+	M30("M30", 30.0, 561.0),
+	M33("M33", 33.0, 694.0),
+	M36("M36", 36.0, 817.0);
+	
+	switch(comboTipoParafuso.getSelectedIndex()){
+		case 0: //Escolha o tipo de Parafuso
+			valorDiametro.setText("-");
+			valorArea.setText("-");
+			valorD1Arruelas.setText("-");
+			valorD2Arruelas.setText("-");
+			model.removeAllElements();
+			model.addElement("Escolha o Tipo de Arruela");
+			break;
+		case 1: //M10
+			valorDiametro.setText("10,0");
+			valorArea.setText("58,0");
+			model.removeAllElements();
+			model.addElement("Escolha o Tipo de Arruela");
+			model.addElement("M10 (DIN 440 R)");
+			model.addElement("M10 (DIN 440 V)");
+			model.addElement("M10 (DIN 436)");
+			comboArruelas.setModel(model);
+			relatorioTipoParafuso.setText("ISO 4016 - M10");
+			relatorioDiametro.setText("10,0");
+			break;
+		case 2: //M12
+			valorDiametro.setText("12,0");
+			valorArea.setText("84,3");
+			model.removeAllElements();
+			model.addElement("Escolha o Tipo de Arruela");
+			model.addElement("M12 (DIN 440 R)");
+			model.addElement("M12 (DIN 440 V)");
+			model.addElement("M12 (DIN 436)");
+			comboArruelas.setModel(model);
+			relatorioTipoParafuso.setText("ISO 4016 - M12");
+			relatorioDiametro.setText("12,0");
+			break;
+		case 3: //M16
+			valorDiametro.setText("16,0");
+			valorArea.setText("157,0");
+			model.removeAllElements();
+			model.addElement("Escolha o Tipo de Arruela");
+			model.addElement("M16 (DIN 440 R)");
+			model.addElement("M16 (DIN 440 V)");
+			model.addElement("M16 (DIN 436)");
+			comboArruelas.setModel(model);
+			relatorioTipoParafuso.setText("ISO 4016 - M16");
+			relatorioDiametro.setText("16,0");
+			break;
+		case 4: //M20
+			valorDiametro.setText("20,0");
+			valorArea.setText("245,0");
+			model.removeAllElements();
+			model.addElement("Escolha o Tipo de Arruela");
+			model.addElement("M20 (DIN 440 R)");
+			model.addElement("M20 (DIN 440 V)");
+			model.addElement("M20 (DIN 436)");
+			comboArruelas.setModel(model);
+			relatorioTipoParafuso.setText("ISO 4016 - M20");
+			relatorioDiametro.setText("20,0");
+			break;
+		case 5: //M22
+			valorDiametro.setText("22,0");
+			valorArea.setText("303,0");
+			model.removeAllElements();
+			model.addElement("Escolha o Tipo de Arruela");
+			model.addElement("M22 (DIN 440 R)");
+			model.addElement("M22 (DIN 440 V)");
+			model.addElement("M22 (DIN 436)");
+			comboArruelas.setModel(model);
+			relatorioTipoParafuso.setText("ISO 4016 - M22");
+			relatorioDiametro.setText("22,0");
+			break;
+		case 6: //M24
+			valorDiametro.setText("24,0");
+			valorArea.setText("353,0");
+			model.removeAllElements();
+			model.addElement("Escolha o Tipo de Arruela");
+			model.addElement("M24 (DIN 440 R)");
+			model.addElement("M24 (DIN 436)");
+			comboArruelas.setModel(model);
+			relatorioTipoParafuso.setText("ISO 4016 - M24");
+			relatorioDiametro.setText("24,0");
+			break;
+		case 7: //M27
+			valorDiametro.setText("27,0");
+			valorArea.setText("459,0");
+			model.removeAllElements();
+			model.addElement("Escolha o Tipo de Arruela");
+			model.addElement("M27 (DIN 440 R)");
+			model.addElement("M27 (DIN 436)");
+			comboArruelas.setModel(model);
+			relatorioTipoParafuso.setText("ISO 4016 - M27");
+			relatorioDiametro.setText("27,0");
+			break;
+		case 8: //M30
+			valorDiametro.setText("30,0");
+			valorArea.setText("561,0");
+			model.removeAllElements();
+			model.addElement("Escolha o Tipo de Arruela");
+			model.addElement("M30 (DIN 440 R)");
+			model.addElement("M30 (DIN 436)");
+			comboArruelas.setModel(model);
+			relatorioTipoParafuso.setText("ISO 4016 - M30");
+			relatorioDiametro.setText("30,0");
+			break;
+		case 9: //M33
+			valorDiametro.setText("33,0");
+			valorArea.setText("694,0");
+			model.removeAllElements();
+			model.addElement("Escolha o Tipo de Arruela");
+			model.addElement("M33 (DIN 440 R)");
+			comboArruelas.setModel(model);
+			relatorioTipoParafuso.setText("ISO 4016 - M33");
+			relatorioDiametro.setText("33,0");
+			break;
+		case 10: //M36
+			valorDiametro.setText("36,0");
+			valorArea.setText("817,0");
+			model.removeAllElements();
+			model.addElement("Escolha o Tipo de Arruela");
+			model.addElement("M36 (DIN 440 R)");
+			comboArruelas.setModel(model);
+			relatorioTipoParafuso.setText("ISO 4016 - M36");
+			relatorioDiametro.setText("36,0");
+			break;
+	}
+	
+	private String nome;
+	private TipoParafuso[] tiposParafuso;
+
+	private Arruela(String nome, double DiametroParafuso, double ComprimentoParafuso) {
+		this.nome = nome;
+		this.DiametroParafuso = DiametroParafuso;
+		this.ComprimentoParafuso = ComprimentoParafuso;
+
+	}
+
+	public double getDiametro() {
+		return this.DiametroParafuso;
+	}
+
+	public double getComprimento() {
+		return this.ComprimentoParafuso;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	@Override
+	public String toString() {
+		return this.nome;
+	}
+
+}

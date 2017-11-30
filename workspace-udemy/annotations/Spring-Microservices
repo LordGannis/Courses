@@ -1,0 +1,43 @@
+Microservices: the microservices architectural style is an approach to developing a single application as a suite of small services
+	- REST
+	- & Small Well Chosen Deployable Units
+	- & Cloud Enable
+	
+Naming server - Netflix Eureka
+Ribbon - Client Side Load Balancing
+Feign - Easier REST Client
+Hystrix - Fault Tolerance
+
+Visibility and Monitoring:
+	Zipkin Distributed Tracing
+	Netflix Zuul API Gatewar
+
+
+Limits Service	-	8080, 8081, ...
+Spring Cloud Config Server	-	8888
+Currency Exchange Service	-	8000, 8001, 8002, ..
+Currency Conversion Service	-	8100, 8101, 8102, ...
+Netflix Eureka Naming Server	-	8761
+Netflix Zuul API Gateway Server	-	8765
+Zipkin Distributed Tracing Server	-	9411
+ 
+application.properties - remember of define name of the application and the port
+	spring.cloud.config.server.git.uri=file://C:/Desenv/git-udemy -> cloud need a github mapped (source folder in Build Path too)
+ 
+ new RestTemplate().getForEntity -> invoke a REST and get the return into getBody().
+ 	Map<String, String> uriVariables -> used to pass variables
+ 	
+ 	
+===================================================================================================================
+NetFlix APIs:
+	Feign: Call REST APIs and make the return automaticaly
+	Ribbon: It's a loading balance...he calls the servers balancing to not have overcalls. Usually suplies Feign
+	Eureka: It's a naming server. Usually suplies Ribbon
+	Zuul: It's a gateway to intercept all the requests
+	Hystrix: It's a fault tolarence for REST that call another method in cases of error
+===================================================================================================================
+	
+	Sleuth: Give the same ID for the request "chain"
+	Zipkin: Distributed tracing of the requests across multiple applications/components
+	
+	Bus: update files from SpringCloud to all instances consuming

@@ -1,0 +1,24 @@
+package br.com.tcd.verifier;
+public static class VerificadorComboArruelas extends VerificadoresPrego {
+
+		public VerificadorComboArruelas(JProgressBar status, ModeloLigacaoProvider modeloLigacaoProvider) {
+			super(status, modeloLigacaoProvider);
+		}
+
+		@Override
+		public boolean verify(JComponent input) {
+			JComboBox box = (JComboBox)input;
+
+			if(box.getSelectedIndex() == 0) {
+				input.setBackground(Color.red);
+				status.setString("Escolha o tipo de arruela para madeira.");
+				this.verified = false;
+			} else {
+				validateSuccess(input);
+				status.setString("Clique em \"Calcular Ligação\".");
+			}
+
+			return this.verified;
+		}
+
+	}

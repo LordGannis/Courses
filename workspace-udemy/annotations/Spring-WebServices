@@ -1,0 +1,46 @@
+WebService: Software system designed to support interoperable machine-to-machine interaction over a network.
+
+SOAP: Simple Object Access Protocol
+ 	Request and Response with XML
+ 	Structure:
+ 		SOAP-ENV: Envelope
+ 		SOAP-ENV: Header (optionally)
+ 		SOAP-ENV: Body
+ 		
+ 	Transporte: over MQ or HTTP
+ 	Service Definition: WSDL - Web Service Definition Language
+ 		- All operations
+ 		- Endpoints
+ 		- Request/Response structure
+ 		
+ REST: REpresentational State Transfer
+ 	Use better of HTTP - Hyper Text Transfer Protocol
+ 		- HTTP Methods
+ 			- GET: get something
+ 			- POST: trying to create something
+ 			- PUT: trying to update something
+ 			- DELETE: trying to delete something
+ 		- HTTP Status Codes 
+ 	
+ 	Resource: has an URI and can have different representations
+ 	 
+ Spring Security:
+ 	- Authenticate user using application.properties
+ 	
+ 	
+ Rest Annotations:
+ 	Swagger:
+ 		@EnableSwagger2: enable swagger
+ 		@Configuration: configure swagger using spring
+ 		@RestController: create the Rest BO
+ 		@?Mapping: create a Rest requisition, need be in a @RestController
+ 			@GetMapping
+ 			@PostMapping
+ 			@PutMapping
+ 			@DeleteMapping
+ 			...
+ 		ResponseEntity: create an Entity for response, usually you use with a URI
+ 		@PathVariable: get variable from the path
+ 		@RequestBody: get the body and convert
+ 		@Valid: valid the value of the body
+ 		

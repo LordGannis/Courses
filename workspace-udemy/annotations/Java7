@@ -1,0 +1,36 @@
+Diamond Operator:
+	You don’t have to type the whole list of types for the instantiation. Instead you use the '<>' symbol, which is called diamond operator.
+	
+Switch whit String:
+	Java 7 introduced another type that we can use in Switch statements: the String type.
+	The field is always compared against the case label by using the String.equals() method.
+	
+Try-with-resource:
+	Java 7 has introduced another cool feature to manage the resources automatically, closing it at the end of try-catch
+	Any resource that implements AutoCloseble interface can be a candidate for automatic resource management. 
+	The AutoCloseable is the parent of java.io.Closeable interface and has just one method close() that would be called by the JVM.
+	
+Numeric literals for integrals (byte, short, int, and long):
+	Java 7 introduced underscores in identifying the places in numbers.
+	You can also declare Binary Literals by using 0 plus b or B (for binaries) and x or X (for hexadecimals).
+	
+Improved exception handling:
+	Java 7 introduced multi-catch functionality to catch multiple exception types using a single catch block.
+	
+New file system API
+	The NIO 2.0 has come forward with many enhancements. It’s also introduced new classes to ease the life of a developer when working with multiple file systems.
+	A new java.nio.file package consists of classes and interfaces such as Path, Paths, FileSystem, FileSystems and others.
+		- A Path is simply a reference to a file path. It is the equivalent (and with more features) to java.io.File.
+		- Files.deleteIfExists(path) does not throw exception (as expected) if the file/directory does not exist.
+		- Files.delete(path) throw exception if the file/directory does not exist.
+		You can use other utility methods such as Files.copy(..) and Files.move(..) to act on a file system efficiently. 
+		Similarly, use the createSymbolicLink(..) method to create symbolic links using your code.
+		- The WatchService API lets you receive notification events upon changes to the subject (directory or file).
+	
+Fork and Join
+	Basically the Fork-Join breaks the task at hand into mini-tasks until the mini-task is simple enough that it can be solved without further breakups. 
+	It’s like a divide-and-conquer algorithm.	
+	
+Supporting dynamism
+	This makes VM changes to incorporate non-Java language requirements. 
+	A new package, java.lang.invoke, consisting of classes such as MethodHandle, CallSite and others, has been created to extend the support of dynamic languages.

@@ -1,0 +1,80 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package br.com.tcd.enumeration;
+
+/**
+ *
+ * @author Gabriela Mello
+ */
+public enum ClasseAcoParafuso {
+	
+	ESCOLHA_CLASSE_ACO("Escolha a Classe de Aço",0,0),
+    BAIXO_TEOR("Aço de Baixo Teor de Carbono",600,600);
+	
+	"Escolha a Classe de Aço", "ISO 898-1 - Classe 4.6", "ISO 898-1 - Classe 8.8", "ISO 898-1 - Classe 10.9"
+	
+	valorFyk.setText("235");
+	valorFuk.setText("400");
+	relatorioClasseAco.setText("ISO 898-1 - Classe 4.6");
+	relatoriofyk.setText("235");
+	relatoriofuk.setText("400");
+
+	valorFyk.setText("640");
+	valorFuk.setText("800");
+	relatorioClasseAco.setText("ISO 898-1 - Classe 8.8");
+	relatoriofyk.setText("640");
+	relatoriofuk.setText("800");
+
+	valorFyk.setText("900");
+	valorFuk.setText("1000");
+	relatorioClasseAco.setText("ISO 898-1 - Classe 10.9");
+	relatoriofyk.setText("900");
+	relatoriofuk.setText("1000");
+    
+    private String nome;
+    private int fyk;
+    private int fuk;
+
+	private AcoParafuso(String nome, int fyk, int fuk) {
+		this.nome = nome;
+		this.fyk = fyk;
+		this.fuk = fuk;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public static AcoParafuso getBaixoTeor() {
+		return BAIXO_TEOR;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public int getFyk() {
+		return fyk;
+	}
+
+	public void setFyk(int fyk) {
+		this.fyk = fyk;
+	}
+
+	public int getFuk() {
+		return fuk;
+	}
+
+	public void setFuk(int fuk) {
+		this.fuk = fuk;
+	}
+
+	@Override
+	public String toString() {
+		return this.nome;
+	}
+    
+}

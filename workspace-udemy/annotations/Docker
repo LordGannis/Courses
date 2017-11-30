@@ -1,0 +1,15 @@
+Docker types:
+	CE: Community Edition/Free
+	EE: Enterprise Edition/Paid
+	
+Type of Install:
+	Direct: Linux basic
+	Mac/Win: There is a Virtual Machine to run the containers (transparent)
+	Cloud: AWS/Azure/Google
+	
+WINDOWS:
+	
+Docker commands:
+	docker version - return informations from the server and client (version, api, etc)
+	docker info - all the informations about containers, version, hardware, etc
+	

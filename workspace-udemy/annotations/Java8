@@ -1,0 +1,74 @@
+Lambdas and Functional Interfaces
+	They allow us to treat functionality as a method argument (passing functions around), or treat a code as data.
+	In its simplest form, a lambda could be represented as a comma-separated list of parameters, the –> symbol and the body.
+	The function interface is an interface with just one single method. As such, it may be implicitly converted to a lambda expression.
+		One thing to keep in mind: default and static methods do not break the functional interface contract and may be declared.
+
+Interface’s Default and Static Methods
+	Java 8 extends interface declarations with two new concepts: default and static methods.
+	
+Method References
+	Method references provide the useful syntax to refer directly to exiting methods or constructors of Java classes or objects (instances).
+		- The first type of method references is constructor reference with the syntax Class::new.
+		- The second type is reference to static method with the syntax Class::static_method.
+		- The third type is reference to instance method of arbitrary object of specific type with the syntax Class::method.
+		- The fourth type is reference to instance method of particular class instance the syntax instance::method.
+		
+Repeating annotations
+	Java 8 breaks the rule the fact that the same annotation cannot be declared more than once at the same location and introduced the repeating annotations.
+	It allows the same annotation to be repeated several times in place it is declared.
+
+Better Type Inference
+	Java 8 compiler has improved a lot on type inference. In many cases the explicit type parameters could be inferred by compiler keeping the code cleaner.
+	
+Extended Annotations Support
+	Java 8 extends the context where annotation might be used. Now, it is possible to annotate mostly everything: local variables, generic types, 
+	super-classes and implementing interfaces, even the method’s exceptions declaration.
+	
+Java compiler
+Parameter names
+	Java 8 preserve method parameter names in Java byte-code and make them available at runtime (using Reflection API and Parameter.getName() method) 
+	and the byte-code (using new javac compiler argument –parameters).
+	
+Java libraries
+	Optional is just a container: it can hold a value of some type T or just be null. It provides a lot of useful methods so the explicit null checks have no excuse anymore.
+	Please refer to official Java 8 documentation for more details.
+
+Streams
+	The newly added Stream API (java.util.stream) introduces real-world functional-style programming into the Java. This is by far the most comprehensive addition to 
+	Java library intended to make Java developers significantly more productive 
+	by allowing them to write effective, clean, and concise code.
+	
+Date/Time API (JSR 310)
+	The new java.time package contains all the classes for date, time, date/time, time zones, instants, duration, and clocks manipulation. 
+	In the design of the API the immutability has been taken into account very seriously: no change allowed.
+	
+Base64
+	Finally! the support of Base64 encoding has made its way into Java standard library with Java 8 release. It is very easy to use as following example shows off.
+	
+Parallel Arrays
+	Java 8 release adds a lot of new methods to allow parallel arrays processing. Arguably, the most important one is parallelSort() which may significantly speedup the sorting on multicore machines.
+	
+Concurrency
+	New methods have been added to the java.util.concurrent.ConcurrentHashMap class to support aggregate operations based on the newly added streams facility and lambda expressions. 
+	Also, new methods have been added to the java.util.concurrent.ForkJoinPool class to support a common pool (check also our free course on Java concurrency).
+	The new java.util.concurrent.locks.StampedLock class has been added to provide a capability-based lock with three modes for controlling read/write access 
+	(it might be considered as better alternative for infamous java.util.concurrent.locks.ReadWriteLock).
+	New classes have been added to the java.util.concurrent.atomic package:
+		DoubleAccumulator
+		DoubleAdder
+		LongAccumulator
+		LongAdder
+		
+Java tools
+Nashorn engine: jjs
+	jjs is a command line based standalone Nashorn engine. It accepts a list of JavaScript source code files as arguments and runs them.
+	
+Class dependency analyzer: jdeps
+	jdeps is a really great command line tool. It shows the package-level or class-level dependencies of Java class files. 
+	It accepts .class file, a directory, or JAR file as an input. By default, jdeps outputs the dependencies to the system output (console).
+	
+Java runtime (JVM)
+	The PermGen space is gone and has been replaced with Metaspace (JEP 122).
+	The JVM options -XX:PermSize and –XX:MaxPermSize have been replaced by -XX:MetaSpaceSize and -XX:MaxMetaspaceSize respectively.
+	

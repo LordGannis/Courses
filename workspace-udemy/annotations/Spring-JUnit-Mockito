@@ -1,0 +1,59 @@
+Spring Framework:
+	Beans - classes controlleds
+	Autowiring - identify who need be instanciaty and how
+	Application Context - where all the beans are createds and maintences (IOC Container)
+	
+	Annotations:
+	@Component - manage the instances
+	@Autowired - Spring will instanciate
+		Names can differ
+	@Qualifier - Specify a name to the Bean (instance too)
+	
+	
+	Components annotations:
+		@Controller - for web Controllers
+		@Service - for Business/Service layer
+		@Repository - for DAO layer
+		@Component - Others
+	
+	
+	@RequestMapping(value = "/login", method = RequestMethod.GET) - Create a request
+	@RequestParam String name - get a param
+	ModelMap map - map to return to page
+	
+	Spring Boot Actuator: give monitor of the services
+		Hal Browser: it's a interface for Actuator and services, to test and evaluate REST services
+		
+	AOP - Intercept methods
+		@Aspect / @Configuration - create a Aspect class
+		@Before - execute before the method
+		@After - execute after the method complete
+		@AfterReturning - execute after the method if it contains a return
+		@AfterThrowing - execute after the method throw some exception
+		@Pointcut - create a pointcut to be used by aspect methods
+			@annotation - create a pointcut for one annotation
+		@Around - method executed around the method, that means you can do something, execute the method, and do another thing later
+		
+	Spring Data
+		public interface PersonSpringDataRepository extends JpaRepository<Person, Long>
+			Have a looot of methods
+	
+JUnit
+	fail - throw fail message and fail the JUnit test
+	assertEquals/assertNotEquals - compare values for test the result
+	assertTrue/assertFalse - evaluate a boolean condition
+	assertNull - evaluate a Null Object
+	assertArrayEquals - evaluate the values of two arrays
+	
+	
+Mockito
+	static mock -> create one Mock class from another simple class
+	static when/thenReturn -> create one return to a especific method 
+	With JUnit -> @RunWith(MockitoJUnitRunner.class) -> add Runner mockito to Test Case
+	@Mock -> Create the mock instance
+	@InjectMocks -> Inject Mocks into the classes
+	thenReturn...thenReturn...thenReturn... -> you can put infinits thenReturns, they are sequencial
+	Mockito.any??? -> atribute any value
+	
+
+	 
