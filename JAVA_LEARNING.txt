@@ -1,0 +1,58 @@
+Learning JAVA:
+
+Step 1 - O que realmente é JAVA
+	- Principios basicos:
+		Classes
+		Objetos
+		Orientacao a Objetos
+		Interfaces
+		Enums
+		Metodos
+		Atributos
+		Tipos de dados (BYTE, SHORT, INT, LONG, FLOAT, DOUBLE, BIGDECIMAL, STRING, DATE)
+		Modificadores de acesso (private, public, default, static, finaly, etc)
+		Principais Classes (LIST <E SUAS FILHAS>, MAP <E SEUS FILHOS>)
+		
+	- Principais comandos:
+		IF/SWITCH CASE
+		FOR / WHILE / DO WHILE / FOREACH
+		
+	- Programa basico:
+		Usuario informa um produto, valor, quantidade...soma e retorna o total pra ele
+			SE o produto custar mais que 1000
+				Retornar valor quebrado, exemplo: ao invez de 10000 retornar 10 mil
+
+Step 2 - Banco de Dados (MySQL, PostgreSQL, Oracle)
+	- Criar tabela/Dropar tabela
+	- Comandos basicos: INSERT, UPDATE, DELETE, SELECT
+	- Trabalhando com Joins: INNER JOIN, LEFT/RIGHT JOIN
+	- Outros comandos: UNION, COUNT, SUM, ORDER, DISTINCT
+	- JAVA: trabalhando com JDBC, inserindo os dados do programa anterior no BD
+
+Step 3 - WebServices
+	- O que sao WebServices
+	- O que é SOAP e REST?
+	- Implementando SOAP e REST - SERVER
+	- Implementando SOAP e REST - CLIENT
+	
+Step 3 - Frameworks JAVA
+	- Hibernate/JPA2: trabalhando com banco de dados de forma mais automatica
+	- Maven: gerenciador de dependencias
+	- Spring:
+		- Spring MVC: spring web organizador
+		- Spring Boot: gerencia a aplicacao por voce
+		- Spring WEB: Web Services REST
+		- Spring Security: controle de seguranca
+
+Step 4 - Microservices
+	- O conceito e o porque de se usar microservicos
+	- Criando uma aplicacao utilizando microservicos, Spring Boot, H2 e Spring Cloud:
+		- Feign: Netflix API para consumo de REST
+		- Ribbon: Netflix API para load balance
+		- Eureka: Nextflix API para naming servers
+		- Hystrix: Netflix API para fault tolerance
+		- Zuul: Netflix API para monitoramento de servicos
+		
+Step 5 - Docker
+	- O que e e porque esta tao famoso
+	- Subindo os microservicos no Docker
