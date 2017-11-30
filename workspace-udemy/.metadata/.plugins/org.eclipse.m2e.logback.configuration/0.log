@@ -1,0 +1,137 @@
+2017-11-30 12:37:50,580 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Failure to transfer org.springframework.boot:spring-boot-starter-parent:2.0.0.BUILD-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-starter-parent:2.0.0.BUILD-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+2017-11-30 12:37:52,393 [Worker-25] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.microservices.cloud:currencyconversion:0.0.1-SNAPSHOT @ C:\Desenv\Courses\workspace-udemy\currencyconversion\pom.xml.
+2017-11-30 12:37:53,784 [Worker-25] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.microservices.cloud:currencyexchange:0.0.1-SNAPSHOT @ C:\Desenv\Courses\workspace-udemy\currencyexchange\pom.xml.
+2017-11-30 12:37:54,025 [Worker-25] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.microservices.cloud:eurekanaming:0.0.1-SNAPSHOT @ C:\Desenv\Courses\workspace-udemy\eurekanaming\pom.xml.
+2017-11-30 12:37:54,512 [Worker-25] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.webspring:first-spring-web:0.0.1-SNAPSHOT @ C:\Desenv\Courses\workspace-udemy\first-spring-web\pom.xml.
+2017-11-30 12:37:54,646 [Worker-25] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.mockito:firstmockito:0.0.1-SNAPSHOT @ C:\Desenv\Courses\workspace-udemy\firstmockito\pom.xml.
+2017-11-30 12:37:54,816 [Worker-25] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: java-8-features:java-8-features:0.0.1-SNAPSHOT @ C:\Desenv\Courses\workspace-udemy\java-8-features\pom.xml.
+2017-11-30 12:37:54,914 [Worker-25] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.microservices.cloud:limitsService:0.0.1-SNAPSHOT @ C:\Desenv\Courses\workspace-udemy\limitsService\pom.xml.
+2017-11-30 12:37:55,133 [Worker-25] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.firstspring.aop:springaop:0.0.1-SNAPSHOT @ C:\Desenv\Courses\workspace-udemy\springaop\pom.xml.
+2017-11-30 12:37:55,239 [Worker-25] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.br.springboot:springboot:0.0.1-SNAPSHOT @ C:\Desenv\Courses\workspace-udemy\springboot\pom.xml.
+2017-11-30 12:37:55,390 [Worker-25] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.microservices.cloud:springcloudserver:0.0.1-SNAPSHOT @ C:\Desenv\Courses\workspace-udemy\springcloudserver\pom.xml.
+2017-11-30 12:37:55,520 [Worker-25] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.firstspring.database:springdatabase:0.0.1-SNAPSHOT @ C:\Desenv\Courses\workspace-udemy\springdatabase\pom.xml.
+2017-11-30 12:37:55,652 [Worker-25] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.in28minutes:springrest:0.0.1-SNAPSHOT @ C:\Desenv\Courses\workspace-udemy\springrest\pom.xml.
+2017-11-30 12:37:55,943 [Worker-25] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.microservices.cloud:zipkin-server:0.0.1-SNAPSHOT @ C:\Desenv\Courses\workspace-udemy\zipkin\pom.xml.
+2017-11-30 12:37:56,630 [Worker-25] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.microservices.cloud:zuul:0.0.1-SNAPSHOT @ C:\Desenv\Courses\workspace-udemy\zuul\pom.xml.
+2017-11-30 12:38:00,239 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /first-spring-web/src/main/java
+2017-11-30 12:38:00,240 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /first-spring-web/src/main/resources
+2017-11-30 12:38:00,240 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /first-spring-web/src/test/java
+2017-11-30 12:38:00,240 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /first-spring-web/src/test/resources
+2017-11-30 12:38:01,957 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /java-8-features/src
+2017-11-30 12:38:01,958 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /java-8-features/src/test/java because it overlaps with /java-8-features/src
+2017-11-30 12:38:02,098 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /springaop/src/main/java
+2017-11-30 12:38:02,098 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /springaop/src/main/resources
+2017-11-30 12:38:02,102 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /springaop/src/main/resources
+2017-11-30 12:38:02,106 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /springaop/src/test/java
+2017-11-30 12:38:02,309 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /zipkin/src/main/java
+2017-11-30 12:38:02,309 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /zipkin/src/main/resources
+2017-11-30 12:38:02,312 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /zipkin/src/main/resources
+2017-11-30 12:38:02,316 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /zipkin/src/test/java
+2017-11-30 12:38:03,575 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /limitsService/src/main/java
+2017-11-30 12:38:03,575 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /limitsService/src/main/resources
+2017-11-30 12:38:03,581 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /limitsService/src/main/resources
+2017-11-30 12:38:03,586 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /limitsService/src/test/java
+2017-11-30 12:38:04,005 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /zuul/src/main/java
+2017-11-30 12:38:04,005 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /zuul/src/main/resources
+2017-11-30 12:38:04,009 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /zuul/src/main/resources
+2017-11-30 12:38:04,013 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /zuul/src/test/java
+2017-11-30 12:38:04,615 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /springboot/src/main/java
+2017-11-30 12:38:04,616 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /springboot/src/main/resources
+2017-11-30 12:38:04,620 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /springboot/src/main/resources
+2017-11-30 12:38:04,625 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /springboot/src/test/java
+2017-11-30 12:38:04,810 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eurekanaming/src/main/java
+2017-11-30 12:38:04,811 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eurekanaming/src/main/resources
+2017-11-30 12:38:04,815 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eurekanaming/src/main/resources
+2017-11-30 12:38:04,820 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eurekanaming/src/test/java
+2017-11-30 12:38:05,203 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /currencyconversion/src/main/java
+2017-11-30 12:38:05,203 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /currencyconversion/src/main/resources
+2017-11-30 12:38:05,233 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /currencyconversion/src/main/resources
+2017-11-30 12:38:05,238 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /currencyconversion/src/test/java
+2017-11-30 12:38:05,582 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /springcloudserver/src/main/java
+2017-11-30 12:38:05,582 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /springcloudserver/src/main/resources
+2017-11-30 12:38:05,586 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /springcloudserver/src/main/resources
+2017-11-30 12:38:05,591 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /springcloudserver/src/test/java
+2017-11-30 12:38:05,803 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /currencyexchange/src/main/java
+2017-11-30 12:38:05,803 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /currencyexchange/src/main/resources
+2017-11-30 12:38:05,807 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /currencyexchange/src/main/resources
+2017-11-30 12:38:05,811 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /currencyexchange/src/test/java
+2017-11-30 12:38:06,565 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /springrest/src/main/java
+2017-11-30 12:38:06,566 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /springrest/src/main/resources
+2017-11-30 12:38:06,570 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /springrest/src/main/resources
+2017-11-30 12:38:06,574 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /springrest/src/test/java
+2017-11-30 12:38:06,856 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /springdatabase/src/main/java
+2017-11-30 12:38:06,856 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /springdatabase/src/main/resources
+2017-11-30 12:38:06,860 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /springdatabase/src/main/resources
+2017-11-30 12:38:06,865 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /springdatabase/src/test/java
+2017-11-30 12:38:07,049 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /firstmockito/src/main/java
+2017-11-30 12:38:07,049 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /firstmockito/src/main/resources
+2017-11-30 12:38:07,054 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /firstmockito/src/main/resources
+2017-11-30 12:38:07,060 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /firstmockito/src/test/java
+2017-11-30 12:38:07,174 [Worker-25] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 15 project(s) in 17 sec
+2017-11-30 12:38:12,431 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-30 12:38:12,433 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-11-30 12:38:12,448 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-11-30 12:38:12,451 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-30 12:38:12,451 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Desenv\Courses\workspace-udemy\currencyconversion\src\test\resources
+2017-11-30 12:38:13,488 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-30 12:38:13,488 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-11-30 12:38:13,490 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-11-30 12:38:13,498 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-30 12:38:13,498 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Desenv\Courses\workspace-udemy\currencyexchange\src\test\resources
+2017-11-30 12:38:14,351 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-30 12:38:14,352 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-11-30 12:38:14,353 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-11-30 12:38:14,355 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-30 12:38:14,355 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Desenv\Courses\workspace-udemy\eurekanaming\src\test\resources
+2017-11-30 12:38:14,475 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-11-30 12:38:14,476 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-11-30 12:38:14,484 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-11-30 12:38:14,485 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-11-30 12:38:14,885 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-30 12:38:14,886 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-11-30 12:38:14,888 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-11-30 12:38:14,890 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-30 12:38:14,890 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Desenv\Courses\workspace-udemy\firstmockito\src\test\resources
+2017-11-30 12:38:14,916 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Failure to transfer org.springframework.boot:spring-boot-starter-parent:2.0.0.BUILD-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-starter-parent:2.0.0.BUILD-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+2017-11-30 12:38:15,097 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-11-30 12:38:15,098 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Desenv\Courses\workspace-udemy\java-8-features\src\main\resources
+2017-11-30 12:38:15,099 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-11-30 12:38:15,101 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Desenv\Courses\workspace-udemy\java-8-features\src\test\resources
+2017-11-30 12:38:15,588 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-30 12:38:15,589 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-11-30 12:38:15,589 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-11-30 12:38:15,593 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-30 12:38:15,593 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Desenv\Courses\workspace-udemy\limitsService\src\test\resources
+2017-11-30 12:38:15,871 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-30 12:38:15,871 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-11-30 12:38:15,872 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-11-30 12:38:15,875 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-30 12:38:15,875 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Desenv\Courses\workspace-udemy\springaop\src\test\resources
+2017-11-30 12:38:16,258 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-30 12:38:16,259 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-11-30 12:38:16,260 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-11-30 12:38:16,261 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-30 12:38:16,261 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Desenv\Courses\workspace-udemy\springboot\src\test\resources
+2017-11-30 12:38:16,624 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-30 12:38:16,624 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-11-30 12:38:16,626 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-11-30 12:38:16,629 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-30 12:38:16,629 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Desenv\Courses\workspace-udemy\springcloudserver\src\test\resources
+2017-11-30 12:38:17,252 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-30 12:38:17,253 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-11-30 12:38:17,254 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-11-30 12:38:17,258 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-30 12:38:17,258 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Desenv\Courses\workspace-udemy\springdatabase\src\test\resources
+2017-11-30 12:38:17,697 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-30 12:38:17,698 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-11-30 12:38:17,699 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-11-30 12:38:17,708 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-30 12:38:17,708 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Desenv\Courses\workspace-udemy\springrest\src\test\resources
+2017-11-30 12:38:18,668 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-30 12:38:18,669 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-11-30 12:38:18,670 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-11-30 12:38:18,672 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-30 12:38:18,672 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Desenv\Courses\workspace-udemy\zipkin\src\test\resources
+2017-11-30 12:38:20,042 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-30 12:38:20,042 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-11-30 12:38:20,044 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource

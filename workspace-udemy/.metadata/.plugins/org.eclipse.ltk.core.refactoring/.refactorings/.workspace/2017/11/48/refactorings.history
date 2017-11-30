@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 16 resources" deleteContents="false" description="Delete 16 resources" element1="/currencyconversion" element10="/springaop" element11="/springboot" element12="/springcloudserver" element13="/springdatabase" element14="/springrest" element15="/zipkin" element16="/zuul" element2="/currencyexchange" element3="/eurekanaming" element4="/first-spring-web" element5="/firstmockito" element6="/firstspring" element7="/java-8-features" element8="/junit-5steps" element9="/limitsService" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="16" stamp="1512052660648"/>
+</session>
